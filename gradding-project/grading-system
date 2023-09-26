@@ -1,0 +1,35 @@
+// using switch statment to write code for grading system
+#include <stdio.h>
+
+int main() 
+{
+    // tell me what type of score
+    printf("what was your score:\n");
+    
+    scanf("%d", score);
+    
+    switch(score)
+    case 80 ... 100;
+    print("A \n");
+    break;
+    case 70 ... 79;
+    print("B \n");
+    break;
+    case 60 ... 69;
+    print("C \n");
+    break;
+    case 50 ... 59;
+    print("D \n");
+    break;
+    case 40 ... 49;
+    print("E \n");
+    break;
+    case 30 ... 39;
+    print("F \n");
+    break;
+    default;
+    printf("invalid score")
+    break;
+    
+    return 0;
+}
