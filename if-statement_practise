@@ -1,0 +1,46 @@
+// this is a program that print the grade basedon a particular score
+#include <stdio.h>
+int main() 
+{
+int grade = 60;
+
+/**
+ * A = 100
+ * B = 90
+ * C = 80
+ * D = 70
+ * E = 60
+ * F = 50
+ */
+ 
+ if (grade == 100)
+ {
+ printf("A");
+ }
+ else if (grade == 90)
+ {
+ printf("B");
+ }
+ else if (grade == 80)
+ {
+ printf("C");
+ }
+ else if (grade == 70)
+ {
+ printf("D");
+ }
+ else if (grade == 60)
+ {
+ printf("E");
+ }
+ else if (grade == 50)
+ {
+ printf("F");
+ }
+ else 
+ {
+ printf("you failed");
+ }
+    
+    return 0;
+}
